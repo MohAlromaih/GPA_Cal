@@ -1,0 +1,37 @@
+---------------------------------------
+
+1. Calculate Total GPA From 5
+2. Calculate Total GPA From 4
+3. EXIT
+
+---------------------------------------
+
+OPTION: 1
+----------------------------------------
+
+Enter Your Previous  Houre: 124
+Last GPA: 3.44
+Current Houre: 14
+How many Houre For A+: 1
+How many Houre For A: 0
+How many Houre For B+: 0
+How many Houre For B: 0
+How many Houre For C+: 10
+How many Houre For C: 3
+How many Houre For D+: 0
+How many Houre For D: 0
+How many Houre For F: 0
+-------------------------- [Current Semester] -----------------------------------------
+
+[+] You Complete  14.0  Hours In This Semester.
+[+] Your Total Points For this Semester is:  49.0  Points
+[+] List of all Grade:  [5, 0.0, 0.0, 0, 35.0, 9, 0.0, 0, 0]
+[+] GPA For This Semester:  3.5
+[+] Appreciation:  Good
+
+-------------------------- [ALL Semesters] -------------------------------------------
+
+[+] You Complete,   138.0  Hours in all Semesters.
+[+] You Get,  475.56  POINTS in all Semester.
+[+] Final GPA: |  3.4460869565217394  |
+[+] Appreciation:  Good
