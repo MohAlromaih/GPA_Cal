@@ -1,0 +1,39 @@
+---------------------------------------
+
+1. Calculate total GPA
+2. EXIT
+
+---------------------------------------
+
+OPTION: 1
+----------------------------------------
+
+Enter Your Previose Houre: 124
+Previose GPA: 2.88
+Carrent Houre: 18
+How many Houre For A+: 4
+How many Houre For A: 1
+How many Houre For B+: 3
+How many Houre For B: 2
+How many Houre For C+: 4
+How many Houre For C: 2
+How many Houre For D+: 2
+How many Houre For D: 0
+How many Houre For F: 0
+--------------------------------------------------------------------------------------
+
+[+] Your Complite,  18.0  Hours In This Semester.
+[+] Your Total Points For this Semester is:  71.25  Points
+[+] List of all Grade:  [20, 4.75, 13.5, 8, 14.0, 6, 5.0, 0, 0]
+[+] GPA For This Semester:  3.9583333333333335
+[+] Appreciation:  Very Good
+
+--------------------------------------------------------------------------------------
+
+[+] You Complite,   142.0  Hours in all Semesters.
+[+] You Get,  428.37  POINTS in all semester.
+
+--------------------------------------------------------------------------------------
+
+[+] Final GPA: |  3.0166901408450704  |
+[+] Appreciation:  Good
