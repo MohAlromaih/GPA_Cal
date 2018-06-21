@@ -1,10 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 #----------------------------------------------------------
 # NOTE: V.1.6
-# Auther : Mohammed Alromaih
 #----------------------------------------------------------
 
-def Appreciation(GPA):
+def Grade(GPA):
     if GPA <= 5 and GPA >= 4.50:    # if 4.5 <= GPA <= 5
         appr = "Excellent"
     elif GPA < 4.50 and GPA >= 3.75:
@@ -32,51 +33,51 @@ while con :
     if op == '1':
 
 
-        pre_hour = float(input("Enter Your Previose Houre: ")) # G = 124
-        pre_gpa = float(input("Previose GPA: ")) # G = 2.88
+        pre_hour = float(input("Enter Your Previous Houre: ")) # G = 124
+        pre_gpa = float(input("Previous GPA: ")) # G = 2.88
         pre_point = pre_hour * pre_gpa # to calculate all points.
         #----------------------------------------------------------------------
 
-        hour = float(input("Carrent Houre: ")) # Gusse  = 14
+        hour = float(input("Carrent Houre: ")) # Guess  = 14
         total = [] # list to insert all points on it ,
-        chick = [] # chick all houres in grade List equal the current houre.
+        Check = [] # Check all houres in grade List equal the current houre.
 
         #----------------------------------------------------------------------
 
         A = int(input("How many Houre For A+: "))
-        chick.append(A)
+        Check.append(A)
         total.append(A*5)
 
         a = int(input("How many Houre For A: "))
-        chick.append(a)
+        Check.append(a)
         total.append(a*4.75)
 
         B = int(input("How many Houre For B+: "))
-        chick.append(B)
+        Check.append(B)
         total.append(B*4.50)
 
         b = int(input("How many Houre For B: "))
-        chick.append(b)
+        Check.append(b)
         total.append(b*4)
 
         C = int(input("How many Houre For C+: "))
-        chick.append(C)
+        Check.append(C)
         total.append(C*3.50)
 
         c = int(input("How many Houre For C: "))
-        chick.append(c)
+        Check.append(c)
         total.append(c*3)
 
         D = int(input("How many Houre For D+: "))
-        chick.append(D)
+        Check.append(D)
         total.append(D*2.5)
 
         d = int(input("How many Houre For D: "))
-        chick.append(d)
+        Check.append(d)
         total.append(d*2)
 
         F = int(input("How many Houre For F: "))
-        chick.append(F)
+        Check.append(F)
         total.append(F*1)
 
         #------------------------------------------------------------------------------
@@ -84,8 +85,8 @@ while con :
         for i in total:
             sums = float(sums) + float(i)
         #------------------------------------------
-        current_hours = 0 # hours inserted for grade, to chick if semester hours and grades hours is equals.
-        for i in chick:
+        current_hours = 0 # current hours , definded to store the number of inserted hours for each course .. if the current hour and course hour equaled then we can calculate the resoult correctly
+        for i in Check:
             current_hours = int(current_hours) + int(i)
         #------------------------------------------
         # To calculte final GPA.
@@ -96,24 +97,23 @@ while con :
         #------------------------------------------------------------------------------
 
         if current_hours == hour:
-            print ("--------------------------------------------------------------------------------------\n")
-            print ("[+] Your Complite, ", hour , " Hours In This Semester.")
+            print ("-------------------------- [Current Semester] -----------------------------------------\n")
+            print ("[+] You Complete, ", hour , " Hours In This Semester.")
             print ("[+] Your Total Points For this Semester is: ",sums , " Points")
             print ("[+] List of all Grade: ",total)
             print ("[+] GPA For This Semester: ", current_gpa)
-            print ("[+] Appreciation: ", Appreciation(current_gpa),"\n")
-            print ("--------------------------------------------------------------------------------------\n")
-            print ("[+] You Complite,  ", all_hours, " Hours in all Semesters.")
-            print ("[+] You Get, ", all_points, " POINTS in all semester.\n")
-            print ("--------------------------------------------------------------------------------------\n")
+            print ("[+] Grade: ", Grade(current_gpa),"\n")
+            print ("-------------------------- [ALL Semesters] -------------------------------------------\n")
+            print ("[+] You Complete,  ", all_hours, " Hours in all Semesters.")
+            print ("[+] You Get, ", all_points, " POINTS in all semester.")
             print ("[+] Final GPA: | " , final_gpa , " |")
-            print ("[+] Appreciation: ", Appreciation(final_gpa),"\n")
+            print ("[+] Final Grade: ", Grade(final_gpa),"\n")
 
 
 
         else:
-            print ("Sorry, Grade Hours not equal Semester Hours")
-            print ("Be careful when registering hours and, Try Again")
+            print ("Sorry, Grade Hours not equaled Semester Hours")
+            print ("Be careful when Inserting hours, Try Again")
 
     elif op == '2':
         print ("Thank You,")
