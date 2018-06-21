@@ -2,8 +2,6 @@
 # NOTE: New V.2.1 , Calculate GPA From 4 and 5 , check if Previous GPA <= 5 or <= 4
 # NOTE: Last V.1.6 , Calculate GPA From Just 5
 # Auther : Mohammed Alromaih
-# Start Date : 14 August 2016
-# Last Date : 16 August 2016
 #----------------------------------------------------------
 
 def Grade(GPA):
