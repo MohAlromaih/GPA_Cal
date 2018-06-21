@@ -1,6 +1,6 @@
 #----------------------------------------------------------
 # NOTE: New V.2.1 , Calculate GPA From 4 and 5 , check if Previous GPA <= 5 or <= 4
-# NOTE: Last V.1.6 , Calculate GPA From Just 5
+# NOTE: Last V.1.6 , Calculate GPA From 5
 # Auther : Mohammed Alromaih
 #----------------------------------------------------------
 
